@@ -1,0 +1,834 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>图形客户端简介 · V2Ray 配置指南|V2Ray 白话文教程</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-filename/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="Readme.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/ToutyRater" target="_blank" class="custom-link">My GitHub</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../prep/">
+            
+                <a href="../prep/">
+            
+                    
+                    开篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../prep/start.html">
+            
+                <a href="../prep/start.html">
+            
+                    
+                    开始之前
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../prep/install.html">
+            
+                <a href="../prep/install.html">
+            
+                    
+                    安装 V2Ray
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../prep/json.html">
+            
+                <a href="../prep/json.html">
+            
+                    
+                    配置格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../basic/">
+            
+                <a href="../basic/">
+            
+                    
+                    基本篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../basic/vmess.html">
+            
+                <a href="../basic/vmess.html">
+            
+                    
+                    VMess 协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../basic/Shadowsocks.html">
+            
+                <a href="../basic/Shadowsocks.html">
+            
+                    
+                    Shadowsocks 协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../basic/log.html">
+            
+                <a href="../basic/log.html">
+            
+                    
+                    日志文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../basic/routing/">
+            
+                <a href="../basic/routing/">
+            
+                    
+                    路由功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../basic/routing/cndirect.html">
+            
+                <a href="../basic/routing/cndirect.html">
+            
+                    
+                    国内直连
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../basic/routing/adblock.html">
+            
+                <a href="../basic/routing/adblock.html">
+            
+                    
+                    广告过滤
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../basic/routing/notice.html">
+            
+                <a href="../basic/routing/notice.html">
+            
+                    
+                    注意事项
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../basic/sumup.html">
+            
+                <a href="../basic/sumup.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../advanced/">
+            
+                <a href="../advanced/">
+            
+                    
+                    高级篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../advanced/mux.html">
+            
+                <a href="../advanced/mux.html">
+            
+                    
+                    Mux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../advanced/mkcp.html">
+            
+                <a href="../advanced/mkcp.html">
+            
+                    
+                    mKCP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../advanced/dynamicport.html">
+            
+                <a href="../advanced/dynamicport.html">
+            
+                    
+                    动态端口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../advanced/outboundproxy.html">
+            
+                <a href="../advanced/outboundproxy.html">
+            
+                    
+                    代理转发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../advanced/httpfake.html">
+            
+                <a href="../advanced/httpfake.html">
+            
+                    
+                    HTTP 伪装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../advanced/tls.html">
+            
+                <a href="../advanced/tls.html">
+            
+                    
+                    TLS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../advanced/websocket.html">
+            
+                <a href="../advanced/websocket.html">
+            
+                    
+                    WebSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../advanced/wss_and_web.html">
+            
+                <a href="../advanced/wss_and_web.html">
+            
+                    
+                    WebSocket+TLS+Web
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../advanced/h2.html">
+            
+                <a href="../advanced/h2.html">
+            
+                    
+                    HTTP/2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../advanced/cdn.html">
+            
+                <a href="../advanced/cdn.html">
+            
+                    
+                    CDN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../advanced/not_recommend.html">
+            
+                <a href="../advanced/not_recommend.html">
+            
+                    
+                    不建议的配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../app/">
+            
+                <a href="../app/">
+            
+                    
+                    应用篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../app/transparent_proxy.html">
+            
+                <a href="../app/transparent_proxy.html">
+            
+                    
+                    透明代理/路由器翻墙
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../app/dns.html">
+            
+                <a href="../app/dns.html">
+            
+                    
+                    内置 DNS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../app/balance.html">
+            
+                <a href="../app/balance.html">
+            
+                    
+                    负载均衡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../app/docker-deploy-v2ray.html">
+            
+                <a href="../app/docker-deploy-v2ray.html">
+            
+                    
+                    Docker 部署 V2Ray
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../app/benchmark.html">
+            
+                <a href="../app/benchmark.html">
+            
+                    
+                    不权威性能测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../app/optimization.html">
+            
+                <a href="../app/optimization.html">
+            
+                    
+                    内存优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../routing/">
+            
+                <a href="../routing/">
+            
+                    
+                    路由篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../routing/sitedata.html">
+            
+                <a href="../routing/sitedata.html">
+            
+                    
+                    域名文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../routing/bittorrent.html">
+            
+                <a href="../routing/bittorrent.html">
+            
+                    
+                    禁止 BT
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Readme.html">
+            
+                <a href="Readme.html">
+            
+                    
+                    吐槽篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.7.1" data-path="clients.html">
+            
+                <a href="clients.html">
+            
+                    
+                    图形客户端简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >图形客户端简介</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x56FE;&#x5F62;&#x5BA2;&#x6237;&#x7AEF;"><b>1. </b>&#x56FE;&#x5F62;&#x5BA2;&#x6237;&#x7AEF;</a></li><ul><li><span class="title-icon "></span><a href="#windows-&#x5E73;&#x53F0;"><b>1.1. </b>Windows &#x5E73;&#x53F0;</a></li><ul><li><span class="title-icon "></span><a href="#v2ray-taskbar"><b>1.1.1. </b>V2Ray-Taskbar</a></li><li><span class="title-icon "></span><a href="#v2tray"><b>1.1.2. </b>V2Tray</a></li><li><span class="title-icon "></span><a href="#v2rayzero"><b>1.1.3. </b>V2RayZero</a></li><li><span class="title-icon "></span><a href="#v2rayw"><b>1.1.4. </b>V2RayW</a></li><li><span class="title-icon "></span><a href="#v2rayn"><b>1.1.5. </b>V2RayN</a></li><li><span class="title-icon "></span><a href="#v2raygcon"><b>1.1.6. </b>V2RayGCon</a></li><li><span class="title-icon "></span><a href="#&#x5176;&#x4ED6;"><b>1.1.7. </b>&#x5176;&#x4ED6;</a></li></ul><li><span class="title-icon "></span><a href="#android-&#x5E73;&#x53F0;"><b>1.2. </b>Android &#x5E73;&#x53F0;</a></li><ul><li><span class="title-icon "></span><a href="#v2raygo"><b>1.2.1. </b>V2RayGo</a></li><li><span class="title-icon "></span><a href="#actinium"><b>1.2.2. </b>Actinium</a></li><li><span class="title-icon "></span><a href="#v2rayng"><b>1.2.3. </b>V2RayNG</a></li><li><span class="title-icon "></span><a href="#bifrostv"><b>1.2.4. </b>BifrostV</a></li></ul><li><span class="title-icon "></span><a href="#ios-&#x5E73;&#x53F0;"><b>1.3. </b>iOS &#x5E73;&#x53F0;</a></li><ul><li><span class="title-icon "></span><a href="#shadowrocket"><b>1.3.1. </b>ShadowRocket</a></li><li><span class="title-icon "></span><a href="#pepi"><b>1.3.2. </b>Pepi</a></li><li><span class="title-icon "></span><a href="#kitsunebi"><b>1.3.3. </b>Kitsunebi</a></li><li><span class="title-icon "></span><a href="#kitsunebi-lite"><b>1.3.4. </b>Kitsunebi Lite</a></li><li><span class="title-icon "></span><a href="#quantumult"><b>1.3.5. </b>Quantumult</a></li></ul><li><span class="title-icon "></span><a href="#mac-&#x5E73;&#x53F0;"><b>1.4. </b>MAC &#x5E73;&#x53F0;</a></li><ul><li><span class="title-icon "></span><a href="#v2rayx"><b>1.4.1. </b>V2RayX</a></li></ul></ul></ul></div><a href="#&#x56FE;&#x5F62;&#x5BA2;&#x6237;&#x7AEF;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x56FE;&#x5F62;&#x5BA2;&#x6237;&#x7AEF;"><a name="&#x56FE;&#x5F62;&#x5BA2;&#x6237;&#x7AEF;" class="anchor-navigation-ex-anchor" href="#&#x56FE;&#x5F62;&#x5BA2;&#x6237;&#x7AEF;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x56FE;&#x5F62;&#x5BA2;&#x6237;&#x7AEF;</h1>
+<p>V2Ray &#x9879;&#x76EE;&#x7EC4;&#x4F3C;&#x4E4E;&#x5BF9; GUI &#x4E0D;&#x662F;&#x5F88;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x7136;&#x800C;&#x4E8B;&#x5B9E;&#x4E0A;&#x6709;&#x592A;&#x591A;&#x7684;&#x4EBA;&#x9700;&#x8981;&#x56FE;&#x5F62;&#x754C;&#x9762;&#xFF0C;&#x4E8E;&#x662F;&#x50AC;&#x751F;&#x4E86;&#x5F88;&#x591A;&#x5F00;&#x53D1;&#x8005;&#x5F00;&#x53D1; GUI &#x7684; V2Ray &#x8F6F;&#x4EF6;&#x3002;&#x5728;&#x8FD9;&#x4E9B;&#x8F6F;&#x4EF6;&#x4E2D;&#xFF0C;&#x5927;&#x90E8;&#x5206;&#x5176;&#x5B9E;&#x53EA;&#x662F;&#x4E00;&#x4E2A;&#x56FE;&#x5F62;&#x754C;&#x9762;&#x800C;&#x5DF2;&#xFF0C;&#x4EE3;&#x7406;&#x90E8;&#x5206;&#x8FD8;&#x662F;&#x76F4;&#x63A5;&#x8C03;&#x7528; V2Ray &#x5185;&#x6838;&#x7684;&#xFF0C;&#x5176;&#x5B9E;&#x8FD9;&#x79CD;&#x56FE;&#x5F62;&#x754C;&#x9762;&#x548C;&#x6838;&#x5FC3;&#x5265;&#x79BB;&#x5F00;&#x6765;&#x5206;&#x522B;&#x5F00;&#x53D1;&#x662F; V2Ray &#x9879;&#x76EE;&#x7EC4;&#x4E00;&#x65E9;&#x5C31;&#x8BBE;&#x8BA1;&#x597D;&#x7684;&#x3002;&#x8FD9;&#x79CD;&#x6A21;&#x5F0F;&#x7684;&#x4F18;&#x70B9;&#x662F;&#x5206;&#x5DE5;&#x660E;&#x786E;&#xFF0C;&#x603B;&#x4F53;&#x6548;&#x7387;&#x9AD8;&#xFF1A;V2Ray &#x53EA;&#x9700;&#x5904;&#x7406;&#x4EE3;&#x7406;&#x534F;&#x8BAE;&#xFF0C;&#x5FEB;&#x901F;&#x8FED;&#x4EE3;&#xFF1B;&#x56FE;&#x5F62;&#x5BA2;&#x6237;&#x7AEF;&#x53EA;&#x9700;&#x5904;&#x7406;&#x597D;&#x56FE;&#x5F62;&#x754C;&#x9762;&#xFF0C;&#x8DDF;&#x8FDB;&#x65B0;&#x529F;&#x80FD;&#xFF0C;&#x4E0D;&#x5FC5;&#x91CD;&#x5199;&#x4E00;&#x904D;&#x4EE3;&#x7406;&#x7684;&#x534F;&#x8BAE;&#x3002;&#x5176;&#x5B9E;&#x8FD9;&#x79CD;&#x6A21;&#x5F0F;&#x5728;&#x73B0;&#x4EE3;&#x793E;&#x4F1A;&#x76F8;&#x5F53;&#x5E38;&#x89C1;&#xFF0C;&#x6BD4;&#x5982;&#x8BF4;&#x5927;&#x5BB6;&#x5929;&#x5929;&#x90FD;&#x5728;&#x7528;&#x7684;&#x624B;&#x673A;&#x3002;</p>
+<p>&#x672C;&#x8282;&#x5C06;&#x7B80;&#x5355;&#x4ECB;&#x7ECD;&#x5404;&#x4E2A;&#x5E73;&#x53F0;&#x4E0A;&#x7684; GUI &#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x7531;&#x4E8E;&#x8FD9;&#x4E9B;&#x5BA2;&#x6237;&#x7AEF;&#x90FD;&#x4E0D;&#x662F;&#x7531; V2Ray &#x9879;&#x76EE;&#x7EC4;&#x76F4;&#x63A5;&#x5F00;&#x53D1;&#xFF0C;&#x6240;&#x4EE5;&#x6709;&#x65F6;&#x4E5F;&#x79F0;&#x4E3A;&#x7B2C;&#x4E09;&#x65B9;&#x5BA2;&#x6237;&#x7AEF;&#x3002;&#x6CE8;&#x610F;&#xFF0C;&#x53EA;&#x662F;&#x4ECB;&#x7ECD;&#x800C;&#x5DF2;&#xFF0C;&#x4E0D;&#x662F;&#x8BF4;&#x660E;&#x4E66;&#x4E5F;&#x4E0D;&#x662F;&#x6559;&#x7A0B;&#xFF0C;&#x5E76;&#x4E14;&#x5E26;&#x6709;<strong>&#x4E25;&#x91CD;&#x7684;&#x4E3B;&#x89C2;&#x503E;&#x5411;</strong>&#xFF0C;&#x8BF7;&#x7406;&#x667A;&#x770B;&#x5F85;&#x3002;</p>
+<hr>
+<h2 id="windows-&#x5E73;&#x53F0;"><a name="windows-&#x5E73;&#x53F0;" class="anchor-navigation-ex-anchor" href="#windows-&#x5E73;&#x53F0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. Windows &#x5E73;&#x53F0;</h2>
+<h3 id="v2ray-taskbar"><a name="v2ray-taskbar" class="anchor-navigation-ex-anchor" href="#v2ray-taskbar"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.1. V2Ray-Taskbar</h3>
+<p>&#x6700;&#x65E9;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x975E;&#x5E38;&#x7B80;&#x5355;&#xFF0C;&#x552F;&#x4E00;&#x7684;&#x529F;&#x80FD;&#x5C31;&#x662F;&#x91CD;&#x542F; V2Ray&#x3002;&#x5728; V2Ray &#x9762;&#x4E16;&#x7684;&#x65E9;&#x671F;&#x80FD;&#x6709;&#x4E00;&#x4E2A; GUI &#x5BA2;&#x6237;&#x7AEF;&#x53EF;&#x4EE5;&#x8BF4;&#x660E;&#x5F53;&#x65F6;&#x5DF2;&#x7ECF;&#x6709;&#x4EBA;&#x5BF9; V2Ray &#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x4F46;&#x65E9;&#x5C31;&#x4E0D;&#x66F4;&#x65B0;&#x4E86;&#x3002;&#x4F18;&#x70B9;&#xFF1A;&#x529F;&#x80FD;&#x7B80;&#x5355;&#xFF1B;&#x7F3A;&#x70B9;&#xFF1A;&#x529F;&#x80FD;&#x7B80;&#x5355;&#x3002;</p>
+<h3 id="v2tray"><a name="v2tray" class="anchor-navigation-ex-anchor" href="#v2tray"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.2. V2Tray</h3>
+<p>&#x4ED6;&#x7684;&#x51FA;&#x73B0;&#x662F;&#x4E3A;&#x4E86;&#x8BA9; V2Ray &#x80FD;&#x591F;&#x9690;&#x85CF;&#x53F3;&#x4E0B;&#x89D2;&#x7684;&#x4EFB;&#x52A1;&#x680F;&#x4E2D;&#xFF0C;&#x4E0E; V2Ray-Taskbar &#x540C;&#x65F6;&#x671F;&#xFF0C;&#x7ED3;&#x679C;&#x4E5F;&#x4E00;&#x6837;&#x3002;</p>
+<h3 id="v2rayzero"><a name="v2rayzero" class="anchor-navigation-ex-anchor" href="#v2rayzero"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.3. V2RayZero</h3>
+<p>&#x540E; V2Ray-Taskbar &#x7684;&#x8F6F;&#x4EF6;&#xFF0C;&#x4ED6;&#x7684;&#x51FA;&#x73B0;&#x6807;&#x5FD7;&#x7740; V2Ray &#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x56FE;&#x5F62;&#x5316;&#x7684;&#x65B9;&#x5F0F;&#x914D;&#x7F6E; V2Ray &#x4E86;&#x3002;&#x6211;&#x53EA;&#x7528;&#x8FC7;&#x4E00;&#x6B21;&#xFF0C;&#x4E0D;&#x592A;&#x8BB0;&#x5F97;&#x4E86;&#xFF0C;&#x914D;&#x7F6E;&#x754C;&#x9762;&#x597D;&#x50CF;&#x4E00;&#x5B9A;&#x7A0B;&#x5EA6;&#x4E0A;&#x501F;&#x9274;&#x4E86; Shadowsocks-Windows&#x3002;&#x540C;&#x6837;&#x5730;&#xFF0C;&#x6619;&#x82B1;&#x4E00;&#x73B0;&#x3002;</p>
+<h3 id="v2rayw"><a name="v2rayw" class="anchor-navigation-ex-anchor" href="#v2rayw"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.4. V2RayW</h3>
+<p>&#x597D;&#x50CF;&#x6BD4; V2Zero &#x8FD8;&#x65E9;&#x70B9;&#x3002;&#x8FD9;&#x4F4D;&#x4F5C;&#x8005;&#x5F88;&#x826F;&#x5FC3;&#xFF0C;&#x4ED6;&#x5DF2;&#x7ECF;&#x4E0D;&#x7528; Windows &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E86;&#xFF0C;&#x4F46;&#x8FD8;&#x662F;&#x88C5;&#x4E86;&#x865A;&#x62DF;&#x673A;&#x5F00;&#x53D1; V2RayW&#x3002;&#x4F5C;&#x8005;&#x5F88;&#x7EC6;&#x5FC3;&#xFF0C;&#x770B;&#x5F97;&#x51FA;&#x6BD4;&#x8F83;&#x6CE8;&#x91CD;&#x7EC6;&#x8282;&#xFF0C;&#x4E0D;&#x662F;&#x90A3;&#x79CD;&#x201C;&#x80FD;&#x7528;&#x5C31;&#x884C;&#x201D;&#x5FC3;&#x6001;&#x3002;&#x529F;&#x80FD;&#x8F83;&#x5C11;&#xFF0C;&#x5BF9;&#x65B0;&#x529F;&#x80FD;&#x7684;&#x8DDF;&#x8FDB;&#x7A0D;&#x6162;&#x4E00;&#x4E9B;&#xFF0C;&#x64CD;&#x4F5C;&#x903B;&#x8F91;&#x8DDF; Shadowsocks-Windows &#x5DEE;&#x4E0D;&#x591A;&#xFF0C;&#x81F3;&#x4ECA;&#x8FD8;&#x5728;&#x66F4;&#x65B0;&#x3002;</p>
+<h3 id="v2rayn"><a name="v2rayn" class="anchor-navigation-ex-anchor" href="#v2rayn"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.5. V2RayN</h3>
+<p>&#x51FA;&#x751F;&#x4E8E; V2RayW &#x4E4B;&#x540E;&#xFF0C;&#x516C;&#x8BA4;&#x7684; Windows &#x4E0A;&#x6700;&#x6613;&#x7528;&#x7684; GUI &#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x6452;&#x5F03;&#x4E86; Shadowsocks-Windows &#x7684;&#x754C;&#x9762;&#x98CE;&#x683C;&#xFF0C;&#x65B0;&#x624B;&#x64CD;&#x4F5C;&#x53CB;&#x597D;&#x3002;&#x8FD8;&#x5236;&#x5B9A;&#x4E86;&#x4E8C;&#x7EF4;&#x7801;&#x548C;&#x8BA2;&#x9605;&#x7684;&#x683C;&#x5F0F;&#xFF0C;&#x4FBF;&#x4E8E;&#x673A;&#x573A;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x3002;&#x5BF9;&#x914D;&#x7F6E;&#x5904;&#x7406;&#x5F97;&#x4E0D;&#x597D;&#xFF0C;&#x5BF9;&#x8DEF;&#x7531;&#x529F;&#x80FD;&#x5229;&#x7528;&#x6BD4;&#x8F83;&#x7C97;&#x7CD9;&#x3002;</p>
+<h3 id="v2raygcon"><a name="v2raygcon" class="anchor-navigation-ex-anchor" href="#v2raygcon"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.6. V2RayGCon</h3>
+<p>&#x6BD4;&#x8F83;&#x7279;&#x522B;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x5BF9;&#x4E8E;&#x559C;&#x6B22;&#x7528;&#x4E00;&#x4E9B; V2Ray &#x9AD8;&#x7EA7;&#x529F;&#x80FD;&#x7684;&#x7528;&#x6237;&#x6765;&#x8BF4;&#x8FD9;&#x5E94;&#x8BE5;&#x662F;&#x6700;&#x9002;&#x5408;&#x4ED6;&#x7684;&#xFF0C;&#x53EF;&#x4EE5;&#x540C;&#x65F6;&#x6EE1;&#x8DB3;&#x56FE;&#x5F62;&#x5316;&#x914D;&#x7F6E;&#x548C;&#x9AD8;&#x7EA7;&#x81EA;&#x5B9A;&#x4E49;&#x7684;&#x9700;&#x6C42;&#xFF0C;&#x8FD8;&#x6709;&#x6D4B;&#x8BD5;&#x5668;&#x7B49;&#x5176;&#x4ED6;&#x6BD4;&#x8F83;&#x6709;&#x7279;&#x70B9;&#x7684;&#x529F;&#x80FD;&#x3002;&#x4E0D;&#x592A;&#x9002;&#x5408;&#x5C0F;&#x767D;&#xFF0C;&#x56E0;&#x4E3A;&#x4E00;&#x4E9B;&#x64CD;&#x4F5C;&#x903B;&#x8F91;&#x4E0A;&#x8DDF;&#x4ED6;&#x4EEC;&#x5E73;&#x5E38;&#x7528;&#x7684;&#x8F6F;&#x4EF6;&#x4E0D;&#x592A;&#x4E00;&#x6837;&#x3002;&#x6211;&#x8BA4;&#x4E3A;&#x8FD9;&#x662F; Windows &#x6700;&#x597D;&#x7684; GUI &#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x4E00;&#x662F; V2Ray &#x5185;&#x6838;&#x5951;&#x5408;&#x6700;&#x597D;&#x7684;&#xFF0C;&#x4E8C;&#x662F;&#x6709;&#x64CD;&#x4F5C;&#x6587;&#x6863;&#x3002;</p>
+<h3 id="&#x5176;&#x4ED6;"><a name="&#x5176;&#x4ED6;" class="anchor-navigation-ex-anchor" href="#&#x5176;&#x4ED6;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.7. &#x5176;&#x4ED6;</h3>
+<p>&#x5176;&#x4ED6;&#x7684;&#x8FD8;&#x6709;&#x597D;&#x51E0;&#x4E2A;&#xFF0C;&#x4F46;&#x662F;&#x6211;&#x90FD;&#x6CA1;&#x7528;&#x8FC7;&#x5C31;&#x4E0D;&#x63D0;&#x4E86;&#x3002;</p>
+<hr>
+<h2 id="android-&#x5E73;&#x53F0;"><a name="android-&#x5E73;&#x53F0;" class="anchor-navigation-ex-anchor" href="#android-&#x5E73;&#x53F0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. Android &#x5E73;&#x53F0;</h2>
+<h3 id="v2raygo"><a name="v2raygo" class="anchor-navigation-ex-anchor" href="#v2raygo"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.1. V2RayGo</h3>
+<p>&#x6700;&#x65E9;&#x7684; Android &#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x4E00;&#x4F4D;&#x4ECE;&#x6765;&#x6CA1;&#x5199;&#x8FC7; Android app &#x7684;&#x5927;&#x4F6C;&#x73B0;&#x5B66;&#x73B0;&#x5356;&#x5199;&#x7684;&#x3002;&#x8981;&#x81EA;&#x5DF1;&#x5199;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF0C;&#x529F;&#x80FD;&#x754C;&#x9762;&#x5F88;&#x7B80;&#x5355;&#x3002;&#x4F46;&#x610F;&#x4E49;&#x975E;&#x5E38;&#x91CD;&#x5927;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x643A;&#x5E26;&#x7740;&#x9002;&#x7528;&#x4E8E; Android &#x7684; V2Ray &#x5185;&#x6838;(AndroidLibV2Ray)&#x51FA;&#x73B0;&#xFF0C;&#x4ECE;&#x53E6;&#x4E00;&#x4E2A;&#x89D2;&#x5EA6;&#x770B;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x5B83;&#x662F; AndroidLibV2Ray &#x7684;&#x6F14;&#x793A;&#x3002;</p>
+<h3 id="actinium"><a name="actinium" class="anchor-navigation-ex-anchor" href="#actinium"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.2. Actinium</h3>
+<p>&#x4E00;&#x4F4D;&#x533B;&#x5B66;&#x5927;&#x4F6C;&#x7684;&#x4F5C;&#x54C1;&#xFF0C;&#x57FA;&#x4E8E; AndroidLibV2Ray&#xFF0C;&#x91CD;&#x6784;&#x4E86;&#x56FE;&#x5F62;&#x754C;&#x9762;&#x3002;&#x7528;&#x5BFC;&#x5165;&#x6587;&#x4EF6;&#x7684;&#x65B9;&#x5F0F;&#x52A0;&#x8F7D;&#x914D;&#x7F6E;&#xFF0C;&#x4ECD;&#x7136;&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x5199;&#x914D;&#x7F6E;&#xFF0C;&#x4F46;&#x662F;&#x64CD;&#x4F5C;&#x4E0A;&#x6BD4; V2RayGo &#x7B80;&#x5355;&#x8FD8;&#x52A0;&#x5165;&#x4E86;&#x5206;&#x5E94;&#x7528;&#x4EE3;&#x7406;&#x7B49;&#x3002;&#x5728;&#x5F53;&#x65F6;&#x6765;&#x8BF4;&#x7528; V2Ray &#x7684;&#x4EBA;&#x57FA;&#x672C;&#x4E0A;&#x90FD;&#x4F1A;&#x7528; Actinium&#x3002;&#x7ED3;&#x679C;&#x4E5F;&#x662F;&#x5F03;&#x5751;&#x3002;</p>
+<h3 id="v2rayng"><a name="v2rayng" class="anchor-navigation-ex-anchor" href="#v2rayng"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.3. V2RayNG</h3>
+<p>&#x57FA;&#x4E8E; Actinium&#xFF0C;&#x52A0;&#x5165;&#x4E86;&#x56FE;&#x5F62;&#x5316;&#x914D;&#x7F6E;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x7531;&#x4E8E;&#x4F5C;&#x8005;&#x8DDF; V2RayN &#x7684;&#x662F;&#x540C;&#x4E00;&#x4EBA;&#xFF0C;&#x4E5F;&#x6709;&#x8BA2;&#x9605;&#x548C;&#x4E8C;&#x7EF4;&#x7801;&#x914D;&#x7F6E;&#xFF0C;&#x5BF9;&#x4E8E;&#x591A;&#x670D;&#x52A1;&#x5668;&#x548C;&#x673A;&#x573A;&#x7528;&#x6237;&#x53CB;&#x597D;&#x3002;&#x7279;&#x70B9;&#x4E0E; V2RayN &#x4E00;&#x6837;&#xFF0C;DNS &#x5904;&#x7406;&#x5F97;&#x4E5F;&#x4E0D;&#x597D;&#xFF08;&#x65E9;&#x671F;&#x6D4B;&#x8BD5;&#xFF0C;&#x4E0D;&#x6E05;&#x695A;&#x540E;&#x6765;&#x662F;&#x5426;&#x4F18;&#x5316;&#xFF09;&#x3002;&#x53CD;&#x6B63;&#x6709;&#x8BA2;&#x9605;&#xFF0C;&#x673A;&#x573A;&#x559C;&#x6B22;&#xFF0C;&#x80FD;&#x7528;&#x3002;</p>
+<h3 id="bifrostv"><a name="bifrostv" class="anchor-navigation-ex-anchor" href="#bifrostv"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.4. BifrostV</h3>
+<p>&#x524D;&#x8EAB;&#x662F; Bifrost&#xFF0C;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x4EE3;&#x7406;&#x534F;&#x8BAE;&#x4F46;&#x6CA1;&#x6709;&#x4EBA;&#x89C1;&#x8FC7;&#x7684;&#x9879;&#x76EE;&#xFF0C;&#x540E;&#x6765;&#x53D1;&#x73B0; V2Ray &#x7684;&#x6A21;&#x5757;&#x5316;&#x5B9E;&#x73B0;&#x5F97;&#x6BD4;&#x8F83;&#x5B8C;&#x6574;&#x5C31;&#x8F6C;&#x8EAB;&#x505A; V2Ray &#x7684; GUI&#x5BA2;&#x6237;&#x7AEF;&#x4E86;&#x3002;&#x7EC6;&#x8282;&#x5904;&#x7406;&#x5F97;&#x5F88;&#x597D;&#xFF0C;&#x754C;&#x9762;&#x5C42;&#x6B21;&#x5206;&#x660E;&#xFF0C;&#x53C8;&#x80FD;&#x4E0E; V2Ray &#x7684;&#x914D;&#x7F6E;&#x4E00;&#x4E00;&#x5BF9;&#x5E94;&#xFF0C;&#x6709; V2Ray &#x5B8C;&#x6574;&#x7684;&#x8DEF;&#x7531;&#x529F;&#x80FD;&#xFF0C;&#x8FD8;&#x52A0;&#x5165;&#x4E86;&#x989D;&#x5916;&#x7684; DNS&#xFF0C;&#x4F7F;&#x7528;&#x4F53;&#x9A8C;&#x4E0D;&#x9519;&#x3002;&#x6709;&#x5E7F;&#x544A;&#xFF0C;&#x5E7F;&#x544A;&#x4E0D;&#x662F;&#x95EE;&#x9898;&#xFF0C;&#x95EE;&#x9898;&#x662F;&#x6709;&#x65F6;&#x7A81;&#x7136;&#x5F39;&#x51FA;&#x5168;&#x5C4F;&#x5E7F;&#x544A;&#x4F1A;&#x9020;&#x6210;&#x5FC3;&#x7406;&#x4E0A;&#x7684;&#x9519;&#x6115;&#xFF0C;&#x6C2A;&#x91D1;&#x53EF;&#x89E3;&#x3002;&#x7EFC;&#x5408;&#x5730;&#x8BF4;&#xFF0C;&#x5728; Android &#x4E0A; BifrostV &#x4F7F;&#x7528;&#x4F53;&#x9A8C;&#x6700;&#x597D;&#x3002;</p>
+<hr>
+<h2 id="ios-&#x5E73;&#x53F0;"><a name="ios-&#x5E73;&#x53F0;" class="anchor-navigation-ex-anchor" href="#ios-&#x5E73;&#x53F0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. iOS &#x5E73;&#x53F0;</h2>
+<h3 id="shadowrocket"><a name="shadowrocket" class="anchor-navigation-ex-anchor" href="#shadowrocket"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1. ShadowRocket</h3>
+<p>&#x6700;&#x65E9;&#x7684; iOS &#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x8003;&#x8651;&#x5230;&#x5E73;&#x53F0;&#x9650;&#x5236;&#xFF0C;&#x4E0D;&#x50CF; Android &#x5BA2;&#x6237;&#x7AEF;&#x90A3;&#x6837;&#x76F4;&#x63A5;&#x8C03;&#x7528; V2Ray &#x5185;&#x6838;&#xFF0C;&#x6240;&#x4EE5;&#x5728; ShadowRocket &#x4E0A;&#x4F7F;&#x7528; VMess &#x534F;&#x8BAE;&#x5176;&#x5B9E;&#x8DDF;&#x7528; ss &#x662F;&#x4E00;&#x6837;&#x7684;&#x4F53;&#x9A8C;&#xFF0C;&#x4EE3;&#x7406;&#x534F;&#x8BAE;&#x4E0D;&#x540C;&#x800C;&#x5DF2;&#x3002;&#x4E5F;&#x6B63;&#x56E0;&#x4E3A;&#x4E0D;&#x662F;&#x8C03;&#x7528;&#x5185;&#x6838;&#xFF0C;ShadowRocket &#x652F;&#x6301;&#x7684; V2Ray &#x7279;&#x6027;&#x975E;&#x5E38;&#x5C11;&#xFF0C;&#x5173;&#x4E8E; V2Ray &#x7684;&#x65B0;&#x529F;&#x80FD;&#x4E5F;&#x51E0;&#x4E4E;&#x6CA1;&#x6709;&#x8DDF;&#x8FDB;&#x901F;&#x5EA6;&#x53EF;&#x8A00;&#x3002;</p>
+<h3 id="pepi"><a name="pepi" class="anchor-navigation-ex-anchor" href="#pepi"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.2. Pepi</h3>
+<p>&#x4E0E; ShadowRocket &#x5E08;&#x51FA;&#x540C;&#x95E8;&#xFF0C;&#x53EA;&#x652F;&#x6301; V2Ray&#xFF0C;&#x4F46;&#x5BF9; V2Ray &#x652F;&#x6301;&#x7684;&#x529F;&#x80FD;&#x4E0E; ShadowRocket &#x4E00;&#x6837;&#xFF0C;&#x6240;&#x4EE5;&#x4F17;&#x591A;&#x7F51;&#x53CB;&#x66F4;&#x503E;&#x5411;&#x4F7F;&#x7528; ShadowRocket&#xFF0C;Pepi &#x5DF2;&#x7ECF;&#x5FEB;&#x88AB;&#x5927;&#x5BB6;&#x9057;&#x5FD8;&#x5728;&#x89D2;&#x843D;&#x91CC;&#x4E86;&#x3002;</p>
+<h3 id="kitsunebi"><a name="kitsunebi" class="anchor-navigation-ex-anchor" href="#kitsunebi"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.3. Kitsunebi</h3>
+<p>&#x76F4;&#x63A5;&#x4F7F;&#x7528; V2Ray &#x5185;&#x6838;&#xFF0C;&#x5BF9; V2Ray &#x7684;&#x652F;&#x6301;&#x8981;&#x597D;&#x4E00;&#x4E9B;&#x3002;&#x7531;&#x4E8E; iOS &#x7684;&#x539F;&#x56E0;&#xFF0C;&#x6709;&#x65F6;&#x4F1A;&#x6709;&#x65AD;&#x6D41;&#x7684;&#x73B0;&#x8C61;&#x3002;&#x5BF9;&#x4E0D;&#x8D77;&#xFF01;&#x8BF4;&#x9519;&#x4E86;&#xFF0C;&#x4E0D;&#x5173;&#x7CFB;&#x7EDF;&#x7684;&#x4E8B;&#x3002;</p>
+<h3 id="kitsunebi-lite"><a name="kitsunebi-lite" class="anchor-navigation-ex-anchor" href="#kitsunebi-lite"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.4. Kitsunebi Lite</h3>
+<p>&#x7CBE;&#x7B80;&#x7248;&#x7684; Kitsunebi&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x5C11;&#x4E86;&#x5BFC;&#x5165;&#x81EA;&#x5B9A;&#x4E49; JSON &#x914D;&#x7F6E;&#xFF0C;&#x5176;&#x4ED6;&#x7684;&#x4E0E; Kitsunebi &#x5DEE;&#x4E0D;&#x591A;&#x3002;</p>
+<h3 id="quantumult"><a name="quantumult" class="anchor-navigation-ex-anchor" href="#quantumult"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.5. Quantumult</h3>
+<p>&#x4E0E; ShadowRocket &#x4E00;&#x6837;&#x91CD;&#x5199;&#x4E86;&#x4EE3;&#x7406;&#x534F;&#x8BAE;&#xFF0C;&#x652F;&#x6301;&#x7684;&#x7279;&#x6027;&#x6709;&#x9650;&#x3002;</p>
+<hr>
+<h2 id="mac-&#x5E73;&#x53F0;"><a name="mac-&#x5E73;&#x53F0;" class="anchor-navigation-ex-anchor" href="#mac-&#x5E73;&#x53F0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. MAC &#x5E73;&#x53F0;</h2>
+<h3 id="v2rayx"><a name="v2rayx" class="anchor-navigation-ex-anchor" href="#v2rayx"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.1. V2RayX</h3>
+<p>V2RayW &#x7684;&#x4F5C;&#x8005;&#x5F00;&#x53D1;&#x7684;&#xFF0C;&#x76EE;&#x524D; MAC &#x4E0A;&#x552F;&#x4E00;&#x7684; GUI &#x5BA2;&#x6237;&#x7AEF;&#x3002;&#x6CA1;&#x7528;&#x8FC7;&#xFF0C;&#x4E0D;&#x77E5;&#x600E;&#x6837;&#x3002;</p>
+<hr>
+<p>&#xFF08;&#x672A;&#x5B8C;&#xFF09;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Readme.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 吐槽篇">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"图形客户端简介","level":"1.7.1","depth":2,"previous":{"title":"吐槽篇","level":"1.7","depth":1,"path":"addition/Readme.md","ref":"addition/Readme.md","articles":[{"title":"图形客户端简介","level":"1.7.1","depth":2,"path":"addition/clients.md","ref":"addition/clients.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["splitter","codeblock-filename","editlink","anchors","anchor-navigation-ex","theme-comscore"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"修订","multilingual":false,"base":"https://github.com/toutyrater/v2ray-guide/edit/master"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"codeblock-filename":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"V2Ray 配置指南|V2Ray 白话文教程","links":{"sidebar":{"My GitHub":"https://github.com/ToutyRater"}},"gitbook":"*","description":"关于 V2Ray 配置的详细教程"},"file":{"path":"addition/clients.md","mtime":"2018-09-21T10:10:46.226Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-21T10:11:46.106Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
